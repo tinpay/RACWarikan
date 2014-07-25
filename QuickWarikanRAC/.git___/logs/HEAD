@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 097c9c56043522a481c8835c9af6bdd728b3769c shohei <shohei@shohei-no-iMac.local> 1404741220 +0900	commit (initial): Initial Commit
+097c9c56043522a481c8835c9af6bdd728b3769c eb939a4eeda84c5b4d57bb5b3293921abd7e3189 shohei <shohei@shohei-no-iMac.local> 1404754969 +0900	commit: 割り勘アプリをRACでざっとつくってみた。
+eb939a4eeda84c5b4d57bb5b3293921abd7e3189 eb939a4eeda84c5b4d57bb5b3293921abd7e3189 shohei <shohei@shohei-no-iMac.local> 1404755412 +0900	checkout: moving from master to develop
+eb939a4eeda84c5b4d57bb5b3293921abd7e3189 eb939a4eeda84c5b4d57bb5b3293921abd7e3189 shohei <shohei@shohei-no-iMac.local> 1404755508 +0900	checkout: moving from develop to master
+eb939a4eeda84c5b4d57bb5b3293921abd7e3189 529c1af43808e0ac26dea44d7d0875dd5b55183f shohei <shohei@shohei-no-iMac.local> 1404755655 +0900	merge origin/master: Merge made by the 'recursive' strategy.
+529c1af43808e0ac26dea44d7d0875dd5b55183f 9eedc608b1967e8598e547466f61a74d153aa35a shohei <shohei@shohei-no-iMac.local> 1405824273 +0900	commit: RACで割り勘。
+9eedc608b1967e8598e547466f61a74d153aa35a eb939a4eeda84c5b4d57bb5b3293921abd7e3189 shohei <shohei@shohei-no-iMac.local> 1405824397 +0900	checkout: moving from master to develop
+eb939a4eeda84c5b4d57bb5b3293921abd7e3189 9eedc608b1967e8598e547466f61a74d153aa35a shohei <shohei@shohei-no-iMac.local> 1405824427 +0900	checkout: moving from develop to master
+9eedc608b1967e8598e547466f61a74d153aa35a cf337ee82c4f023647a72b69d1d407a51f828f8b cw-fukui <fukui@chatwork.co.jp> 1406270520 +0900	commit: RAC
