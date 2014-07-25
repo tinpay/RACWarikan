@@ -34,7 +34,7 @@ const int kFraction = 100;
         self.clearCommand = [[RACCommand alloc] initWithSignalBlock:^RACSignal *(id input) {
             @strongify(self);
             [self clear];
-            return [RACSignal return:@1];
+            return [RACSignal return:RACUnit.defaultUnit];
         }];
 
         
