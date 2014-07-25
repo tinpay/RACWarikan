@@ -71,9 +71,6 @@
     [totalTerminal subscribe:totalTextFieldTerminal];
     [totalTextFieldTerminal subscribe:totalTerminal];
 
-    [self.totalText.rac_textSignal subscribeNext:^(NSString *total) {
-        self.viewModel.total = total;
-    }];
     
     //割り勘した金額 one-way binding
     RAC(self,answerMoreLabel.text) = RACObserve(self.viewModel, answerMore);
