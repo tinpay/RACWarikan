@@ -10,6 +10,13 @@
 #import <ReactiveCocoa/ReactiveCocoa.h>
 
 const int kFraction = 100;
+const int tagTotal=1;
+const int tagMore=2;
+const int tagLess=3;
+const int tagDiff=4;
+const int tagAnsMore=5;
+const int tagAnsLess=6;
+
 
 @interface TPYViewController ()
 
@@ -36,6 +43,11 @@ const int kFraction = 100;
     self.diffMoneyText.delegate = self;
     self.totalText.delegate = self;
     
+    self.totalText.tag = tagTotal;
+    self.morePayNumText.tag = tagMore;
+    self.lessPayNumText.tag = tagLess;
+    self.diffMoneyText.tag = tagDiff;
+    
     
     [self initScreen];
 }
@@ -47,7 +59,7 @@ const int kFraction = 100;
     self.lessPayNumText.text = @"";
     self.totalText.text = @"";
     self.diffMoneyText.text = @"";
-
+    
     self.answerLessLabel.text = @"";
     self.answerMoreLabel.text = @"";
     
@@ -58,11 +70,28 @@ const int kFraction = 100;
 
 #pragma mark UITextField delegate method
 -(BOOL) textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
+    //入力された値を取得
+    NSMutableString *str = [textField.text mutableCopy];
+    [str replaceCharactersInRange:range withString:string];
+    
+    NSString *tmpMore = self.morePayNumText.text;
+    NSString *tmpLess = self.lessPayNumText.text;
+    NSString *tmpTotal = self.totalText.text;
+    NSString *tmpDiff = self.diffMoneyText.text;
+    if (textField.tag == tagMore) {
+        tmpMore = str;
+    }else if (textField.tag == tagLess){
+        tmpLess = str;
+    }else if (textField.tag == tagTotal){
+        tmpTotal = str;
+    }else if (textField.tag == tagDiff){
+        tmpDiff = str;
+    }
     
     //すべてに数字が入力されたときに計算
-    if ([self isDigit:self.totalText.text] && [self isDigit:self.morePayNumText.text] && [self isDigit:self.lessPayNumText.text] && [self isDigit:self.diffMoneyText.text]) {
+    if ([self isDigit:tmpTotal] && [self isDigit:tmpMore] && [self isDigit:tmpLess] && [self isDigit:tmpDiff]) {
         //割り勘計算
-        [self calc];
+        [self calcMore:tmpMore.doubleValue Less:tmpLess.doubleValue Diff:tmpDiff.doubleValue Total:tmpTotal.doubleValue];
     }
     
     
@@ -80,19 +109,19 @@ const int kFraction = 100;
 #pragma mark private method
 
 //割り勘の計算をする
--(void) calc{
+-(void) calcMore:(double)more Less:(double)less Diff:(double)diff Total:(double)total{
     
-    if(self.morePayNumText.text.intValue + self.lessPayNumText.text.intValue==0){
+    if(more ==0 && less==0){
         self.answerMoreLabel.text=@"0";
         self.answerLessLabel.text=@"0";
         return;
-    }   
+    }
     
     double fc = kFraction;
-    int ans = ceil(((self.totalText.text.doubleValue - self.morePayNumText.text.doubleValue * self.diffMoneyText.text.doubleValue)/(self.morePayNumText.text.doubleValue + self.lessPayNumText.text.doubleValue)) / fc);
+    int ans = ceil(((total - more * diff)/(more + less)) / fc);
     
     self.answerLessLabel.text =[ NSString stringWithFormat:@"%.0f", ans * fc];
-    self.answerMoreLabel.text =[ NSString stringWithFormat:@"%.0f", ans * fc + self.diffMoneyText.text.doubleValue];
+    self.answerMoreLabel.text =[ NSString stringWithFormat:@"%.0f", ans * fc + diff];
     
 }
 
