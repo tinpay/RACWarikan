@@ -1,12 +1,13 @@
 RACWarikan
 ==========
 
-
-## 命令型で書いたプログラム
-QuickWarikanNormal
+リアクティブプログラミングと命令型プログラミングを比較するためのサンプルソース
 
 
-## リアクティブで書いたプログラム
-QuickWarikanNormal
+### 命令型で書いたプログラム
+[/QuickWarikanNormal](https://github.com/tinpay/RACWarikan/tree/master/QuickWarikanNormal)
+
+### リアクティブで書いたプログラム
+[/QuickWarikanNormal](https://github.com/tinpay/RACWarikan/tree/master/QuickWarikanRAC)
 
 MVVMで書いてます。シンプルにするためにViewModelにビジネスロジックかいてます。
