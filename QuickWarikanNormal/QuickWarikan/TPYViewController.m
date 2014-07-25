@@ -51,6 +51,8 @@ const int kFraction = 100;
     self.answerLessLabel.text = @"";
     self.answerMoreLabel.text = @"";
     
+    [self.totalText becomeFirstResponder];
+    
 }
 
 
