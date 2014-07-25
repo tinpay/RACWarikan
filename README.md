@@ -8,6 +8,6 @@ RACWarikan
 [/QuickWarikanNormal](https://github.com/tinpay/RACWarikan/tree/master/QuickWarikanNormal)
 
 ### リアクティブで書いたプログラム
-[/QuickWarikanNormal](https://github.com/tinpay/RACWarikan/tree/master/QuickWarikanRAC)
+[/QuickWarikanRAC](https://github.com/tinpay/RACWarikan/tree/master/QuickWarikanRAC)
 
 MVVMで書いてます。シンプルにするためにViewModelにビジネスロジックかいてます。
