@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DE012EA7FF2472683539AA6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29F3B68A6CFD483EAD840733 /* libPods.a */; };
+		19656878196ADDE200A3CEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19656877196ADDE200A3CEF8 /* Foundation.framework */; };
+		1965687A196ADDE200A3CEF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19656879196ADDE200A3CEF8 /* CoreGraphics.framework */; };
+		1965687C196ADDE200A3CEF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1965687B196ADDE200A3CEF8 /* UIKit.framework */; };
+		19656882196ADDE200A3CEF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19656880196ADDE200A3CEF8 /* InfoPlist.strings */; };
+		19656884196ADDE200A3CEF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19656883196ADDE200A3CEF8 /* main.m */; };
+		19656888196ADDE200A3CEF8 /* TPYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19656887196ADDE200A3CEF8 /* TPYAppDelegate.m */; };
+		1965688B196ADDE200A3CEF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19656889196ADDE200A3CEF8 /* Main.storyboard */; };
+		1965688E196ADDE200A3CEF8 /* TPYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1965688D196ADDE200A3CEF8 /* TPYViewController.m */; };
+		19656890196ADDE200A3CEF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1965688F196ADDE200A3CEF8 /* Images.xcassets */; };
+		19656897196ADDE200A3CEF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19656896196ADDE200A3CEF8 /* XCTest.framework */; };
+		19656898196ADDE200A3CEF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19656877196ADDE200A3CEF8 /* Foundation.framework */; };
+		19656899196ADDE200A3CEF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1965687B196ADDE200A3CEF8 /* UIKit.framework */; };
+		196568A1196ADDE200A3CEF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1965689F196ADDE200A3CEF8 /* InfoPlist.strings */; };
+		196568A3196ADDE200A3CEF8 /* QuickWarikanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 196568A2196ADDE200A3CEF8 /* QuickWarikanTests.m */; };
+		196568AE196AE24500A3CEF8 /* TPYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 196568AD196AE24500A3CEF8 /* TPYViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1965689A196ADDE200A3CEF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1965686C196ADDE200A3CEF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19656873196ADDE200A3CEF8;
+			remoteInfo = QuickWarikan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19656874196ADDE200A3CEF8 /* QuickWarikan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickWarikan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19656877196ADDE200A3CEF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19656879196ADDE200A3CEF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1965687B196ADDE200A3CEF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1965687F196ADDE200A3CEF8 /* QuickWarikan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickWarikan-Info.plist"; sourceTree = "<group>"; };
+		19656881196ADDE200A3CEF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19656883196ADDE200A3CEF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19656885196ADDE200A3CEF8 /* QuickWarikan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuickWarikan-Prefix.pch"; sourceTree = "<group>"; };
+		19656886196ADDE200A3CEF8 /* TPYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPYAppDelegate.h; sourceTree = "<group>"; };
+		19656887196ADDE200A3CEF8 /* TPYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPYAppDelegate.m; sourceTree = "<group>"; };
+		1965688A196ADDE200A3CEF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1965688C196ADDE200A3CEF8 /* TPYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPYViewController.h; sourceTree = "<group>"; };
+		1965688D196ADDE200A3CEF8 /* TPYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPYViewController.m; sourceTree = "<group>"; };
+		1965688F196ADDE200A3CEF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		19656895196ADDE200A3CEF8 /* QuickWarikanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickWarikanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19656896196ADDE200A3CEF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1965689E196ADDE200A3CEF8 /* QuickWarikanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickWarikanTests-Info.plist"; sourceTree = "<group>"; };
+		196568A0196ADDE200A3CEF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		196568A2196ADDE200A3CEF8 /* QuickWarikanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickWarikanTests.m; sourceTree = "<group>"; };
+		196568AC196AE24500A3CEF8 /* TPYViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPYViewModel.h; sourceTree = "<group>"; };
+		196568AD196AE24500A3CEF8 /* TPYViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPYViewModel.m; sourceTree = "<group>"; };
+		29F3B68A6CFD483EAD840733 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E1E2BE19B44956A187C8B9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19656871196ADDE200A3CEF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1965687A196ADDE200A3CEF8 /* CoreGraphics.framework in Frameworks */,
+				1965687C196ADDE200A3CEF8 /* UIKit.framework in Frameworks */,
+				19656878196ADDE200A3CEF8 /* Foundation.framework in Frameworks */,
+				0DE012EA7FF2472683539AA6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19656892196ADDE200A3CEF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19656897196ADDE200A3CEF8 /* XCTest.framework in Frameworks */,
+				19656899196ADDE200A3CEF8 /* UIKit.framework in Frameworks */,
+				19656898196ADDE200A3CEF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1965686B196ADDE200A3CEF8 = {
+			isa = PBXGroup;
+			children = (
+				1965687D196ADDE200A3CEF8 /* QuickWarikan */,
+				1965689C196ADDE200A3CEF8 /* QuickWarikanTests */,
+				19656876196ADDE200A3CEF8 /* Frameworks */,
+				19656875196ADDE200A3CEF8 /* Products */,
+				B7E1E2BE19B44956A187C8B9 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		19656875196ADDE200A3CEF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19656874196ADDE200A3CEF8 /* QuickWarikan.app */,
+				19656895196ADDE200A3CEF8 /* QuickWarikanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19656876196ADDE200A3CEF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19656877196ADDE200A3CEF8 /* Foundation.framework */,
+				19656879196ADDE200A3CEF8 /* CoreGraphics.framework */,
+				1965687B196ADDE200A3CEF8 /* UIKit.framework */,
+				19656896196ADDE200A3CEF8 /* XCTest.framework */,
+				29F3B68A6CFD483EAD840733 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1965687D196ADDE200A3CEF8 /* QuickWarikan */ = {
+			isa = PBXGroup;
+			children = (
+				19656886196ADDE200A3CEF8 /* TPYAppDelegate.h */,
+				19656887196ADDE200A3CEF8 /* TPYAppDelegate.m */,
+				19656889196ADDE200A3CEF8 /* Main.storyboard */,
+				1965688C196ADDE200A3CEF8 /* TPYViewController.h */,
+				1965688D196ADDE200A3CEF8 /* TPYViewController.m */,
+				196568AC196AE24500A3CEF8 /* TPYViewModel.h */,
+				196568AD196AE24500A3CEF8 /* TPYViewModel.m */,
+				1965688F196ADDE200A3CEF8 /* Images.xcassets */,
+				1965687E196ADDE200A3CEF8 /* Supporting Files */,
+			);
+			path = QuickWarikan;
+			sourceTree = "<group>";
+		};
+		1965687E196ADDE200A3CEF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1965687F196ADDE200A3CEF8 /* QuickWarikan-Info.plist */,
+				19656880196ADDE200A3CEF8 /* InfoPlist.strings */,
+				19656883196ADDE200A3CEF8 /* main.m */,
+				19656885196ADDE200A3CEF8 /* QuickWarikan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1965689C196ADDE200A3CEF8 /* QuickWarikanTests */ = {
+			isa = PBXGroup;
+			children = (
+				196568A2196ADDE200A3CEF8 /* QuickWarikanTests.m */,
+				1965689D196ADDE200A3CEF8 /* Supporting Files */,
+			);
+			path = QuickWarikanTests;
+			sourceTree = "<group>";
+		};
+		1965689D196ADDE200A3CEF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1965689E196ADDE200A3CEF8 /* QuickWarikanTests-Info.plist */,
+				1965689F196ADDE200A3CEF8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19656873196ADDE200A3CEF8 /* QuickWarikan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196568A6196ADDE200A3CEF8 /* Build configuration list for PBXNativeTarget "QuickWarikan" */;
+			buildPhases = (
+				32E4363A1A594CE88A39C3BA /* Check Pods Manifest.lock */,
+				19656870196ADDE200A3CEF8 /* Sources */,
+				19656871196ADDE200A3CEF8 /* Frameworks */,
+				19656872196ADDE200A3CEF8 /* Resources */,
+				6C4BEADCAD444F4E8AF4A533 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickWarikan;
+			productName = QuickWarikan;
+			productReference = 19656874196ADDE200A3CEF8 /* QuickWarikan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19656894196ADDE200A3CEF8 /* QuickWarikanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 196568A9196ADDE200A3CEF8 /* Build configuration list for PBXNativeTarget "QuickWarikanTests" */;
+			buildPhases = (
+				19656891196ADDE200A3CEF8 /* Sources */,
+				19656892196ADDE200A3CEF8 /* Frameworks */,
+				19656893196ADDE200A3CEF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1965689B196ADDE200A3CEF8 /* PBXTargetDependency */,
+			);
+			name = QuickWarikanTests;
+			productName = QuickWarikanTests;
+			productReference = 19656895196ADDE200A3CEF8 /* QuickWarikanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1965686C196ADDE200A3CEF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TPY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tinpay;
+				TargetAttributes = {
+					19656894196ADDE200A3CEF8 = {
+						TestTargetID = 19656873196ADDE200A3CEF8;
+					};
+				};
+			};
+			buildConfigurationList = 1965686F196ADDE200A3CEF8 /* Build configuration list for PBXProject "QuickWarikan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1965686B196ADDE200A3CEF8;
+			productRefGroup = 19656875196ADDE200A3CEF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19656873196ADDE200A3CEF8 /* QuickWarikan */,
+				19656894196ADDE200A3CEF8 /* QuickWarikanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19656872196ADDE200A3CEF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19656890196ADDE200A3CEF8 /* Images.xcassets in Resources */,
+				19656882196ADDE200A3CEF8 /* InfoPlist.strings in Resources */,
+				1965688B196ADDE200A3CEF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19656893196ADDE200A3CEF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196568A1196ADDE200A3CEF8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32E4363A1A594CE88A39C3BA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C4BEADCAD444F4E8AF4A533 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19656870196ADDE200A3CEF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19656888196ADDE200A3CEF8 /* TPYAppDelegate.m in Sources */,
+				19656884196ADDE200A3CEF8 /* main.m in Sources */,
+				196568AE196AE24500A3CEF8 /* TPYViewModel.m in Sources */,
+				1965688E196ADDE200A3CEF8 /* TPYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19656891196ADDE200A3CEF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196568A3196ADDE200A3CEF8 /* QuickWarikanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1965689B196ADDE200A3CEF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19656873196ADDE200A3CEF8 /* QuickWarikan */;
+			targetProxy = 1965689A196ADDE200A3CEF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19656880196ADDE200A3CEF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19656881196ADDE200A3CEF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		19656889196ADDE200A3CEF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1965688A196ADDE200A3CEF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1965689F196ADDE200A3CEF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196568A0196ADDE200A3CEF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		196568A4196ADDE200A3CEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		196568A5196ADDE200A3CEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		196568A7196ADDE200A3CEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E1E2BE19B44956A187C8B9 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickWarikan/QuickWarikan-Prefix.pch";
+				INFOPLIST_FILE = "QuickWarikan/QuickWarikan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		196568A8196ADDE200A3CEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E1E2BE19B44956A187C8B9 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickWarikan/QuickWarikan-Prefix.pch";
+				INFOPLIST_FILE = "QuickWarikan/QuickWarikan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		196568AA196ADDE200A3CEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuickWarikan.app/QuickWarikan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickWarikan/QuickWarikan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuickWarikanTests/QuickWarikanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		196568AB196ADDE200A3CEF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuickWarikan.app/QuickWarikan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuickWarikan/QuickWarikan-Prefix.pch";
+				INFOPLIST_FILE = "QuickWarikanTests/QuickWarikanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1965686F196ADDE200A3CEF8 /* Build configuration list for PBXProject "QuickWarikan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196568A4196ADDE200A3CEF8 /* Debug */,
+				196568A5196ADDE200A3CEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196568A6196ADDE200A3CEF8 /* Build configuration list for PBXNativeTarget "QuickWarikan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196568A7196ADDE200A3CEF8 /* Debug */,
+				196568A8196ADDE200A3CEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		196568A9196ADDE200A3CEF8 /* Build configuration list for PBXNativeTarget "QuickWarikanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196568AA196ADDE200A3CEF8 /* Debug */,
+				196568AB196ADDE200A3CEF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1965686C196ADDE200A3CEF8 /* Project object */;
+}
